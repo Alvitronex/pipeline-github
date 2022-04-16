@@ -1,5 +1,7 @@
 {
-    "scripts": {
-        "test": "phpunit"
+    "name": "desarrolloweb/probando-composer",
+    "require": {
+        "phpmailer/phpmailer": "5.2.*",
+        "raveren/kint": "0.9.*@dev"
     }
-}
+ }
