@@ -1,0 +1,15 @@
+# Template PHP Build
+
+# This template allows you to validate your PHP application.
+# The workflow allows running tests and code linting on the default b
+
+image: php:7.4-apache
+ 
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Test
+            script:
+              - echo "built"
+              - echo "success"
